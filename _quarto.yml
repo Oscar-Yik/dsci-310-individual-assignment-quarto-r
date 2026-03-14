@@ -1,0 +1,22 @@
+---
+title: "DSCI 310: Historical Horse Population in Canada"
+
+project:
+  type: website
+  output-dir: docs
+  
+format:
+  html:
+    toc: true
+    toc-depth: 1
+  pdf:
+    toc: true
+    toc-depth: 1
+    colorlinks: true
+
+resources:
+  - results/
+
+knitr:
+  opts_knit:
+    root.dir: "."
