@@ -22,3 +22,5 @@ docs/reports/qmd_example.html reports/qmd_example.pdf: results reports/qmd_examp
 clean:
 	rm -rf results
 	rm -rf docs
+	rm -rf .quarto
+	rm reports/*.knit.md
